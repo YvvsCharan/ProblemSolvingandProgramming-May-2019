@@ -1,0 +1,78 @@
+    1  git --version
+    2  git --help
+    3  pwd
+    4  ls
+    5  cd Desktop
+    6  pwd
+    7  cd Problem Solvingand Programming
+    8  cd ProblemSolvingand Programming
+    9  ls
+   10  cd ProblemSolvingandProgramming
+   11  mkdir ProblemSolvingAndProgramming
+   12  cd 
+   13  cd Desktop
+   14  ls
+   15  rm -rf Problem
+   16  mv Pro
+   17  ls
+   18  mv Pro ProblemSolvingAndProgramming
+   19  mv ProblemSolvingAndProgramming
+   20  rmdir Problem\ Solving\ and\ Programming/
+   21  ls
+   22  cd ProblemSolvingAndProgramming
+   23  pwd
+   24  mkdir git
+   25  ls
+   26  cd git
+   27  git --version
+   28  git config --ls
+   29  git config --list
+   30  git config user.name
+   31  git config --globaluser.name "YvvsCharan"
+   32  git config user.name "YvvsCharan"
+   33  git config --global user.name "YvvsCharan"
+   34  git config user.name
+   35  git config --global user.email
+   36  git config --global user.email saicharany@outlook.com
+   37  git config user.email
+   38  touch file.txt
+   39  ls
+   40  git init
+   41  git status
+   42  git add file.txt
+   43  git status
+   44  git commit -m "first file commit"
+   45  git status
+   46  echo "data in line 1" > file.txt
+   47  cat file.txt
+   48  git status
+   49  git add file.txt
+   50  git status
+   51  git commit -m "file second commit"
+   52  git status
+   53  git log
+   54  touch file{2..10}.txt
+   55  ls
+   56  touch file{11..100}.txt
+   57  ls
+   58  rm file{11..100}.txt
+   59  ls
+   60  git status
+   61  git add file{2..10}.txt
+   62  git status
+   63  git reset HEAD file{2..10}.txt
+   64  git status
+   65  git add file{2..10}.txt
+   66  ls
+   67  git commit -m "added 9 new files"
+   68  git status
+   69  git log
+   70  git clone https://github.com/Akash-Sinha/Gitam-Skill-Enhancement-May-2019
+   71  history 100
+   72  cd 
+   73  cd Desktop
+   74  history 100 > git-commands.txt
+   75  ls
+   76  cd ProblemSolvingAndProgramming
+   77  cd git
+   78  history 100 > git-commands.txt
